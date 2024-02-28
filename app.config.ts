@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
-    primary: 'sky',
-    gray: 'slate',
+    primary: 'violet',
+    gray: 'neutral',
 
     footer: {
       bottom: {
@@ -11,7 +11,8 @@ export default defineAppConfig({
     },
 
     icons: {
-      search: 'i-simple-icons-4chan'
+      search: 'i-heroicons-sun-16-solid',
+      dark: 'i-heroicons-rocket-launch-20-solid'
     }
   },
   seo: {
@@ -23,10 +24,10 @@ export default defineAppConfig({
       light: '',
       dark: ''
     },
-    search: true,
+    search: false,
     colorMode: true,
     links: [{
-      icon: 'i-simple-icons-github',
+      icon: 'i-simple-icons-discord',
       to: 'https://github.com/nuxt-ui-pro/docs',
       target: '_blank',
       'aria-label': 'Docs template on GitHub'
