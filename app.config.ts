@@ -22,7 +22,7 @@ export default defineAppConfig({
     logo: {
       alt: '',
       light: '',
-      dark: ''
+      dark: '/favicon.ico'
     },
     search: false,
     colorMode: true,
