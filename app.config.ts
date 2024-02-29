@@ -21,7 +21,7 @@ export default defineAppConfig({
   header: {
     logo: {
       alt: '',
-      light: '',
+      light: '/favicon.ico',
       dark: '/favicon.ico'
     },
     search: false,
